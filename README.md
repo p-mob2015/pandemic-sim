@@ -38,4 +38,5 @@ Launches the test runner in the interactive watch mode.
   - *number of people infected*
   - *number of people unaffected*
   - *number of people healed*
+3. Better UI, incl. control inputs validation
 ---
