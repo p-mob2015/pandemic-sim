@@ -1,38 +1,38 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.App .control-panel {
+  padding: 20px;
+}
+
+.App .control-panel h3 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .control-panel .setting {
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .control-panel .setting label {
+  display: inline-block;
+  width: 150px;    
+  margin-right: 10px;
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .control-panel .actions {
+  margin-top: 20px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.App .control-panel .actions button {
+  font-size: 1.1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .control-panel .actions button:not(:last-child) {
+  margin-right: 10px;
 }
